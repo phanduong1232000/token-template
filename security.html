@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="https://verafti.io/Layout/Images/icon/ic_vera.svg" type="image/x-icon">
+
+    <title>Security Settings</title>
+
+    <link rel="stylesheet" href="./assets/css/bundle.css">
+
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="./assets/css/site-account.css" rel="stylesheet" />
+    <link href="./assets/css/footable.boostrap.min.css" rel="stylesheet" />
+    <script src="./assets/js/jquery.bundle.js"></script>
+    <link href="./assets/css/toastr.min.css" rel="stylesheet" />
+    <link href="./assets/css/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body class="user-dashboard">
+    <div class="topbar">
+        <div class="topbar-md d-lg-none">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="#" class="toggle-nav">
+                        <div class="toggle-icon">
+                            <span class="toggle-line"></span>
+                            <span class="toggle-line"></span>
+                            <span class="toggle-line"></span>
+                            <span class="toggle-line"></span>
+                        </div>
+                    </a>
+
+                    <div class="site-logo">
+                        <a href="/point/dashboard" class="site-brand">
+                            <img src="/Layout/Images/vera-logo.svg" alt="logo" srcset="/Layout/Images/vera-logo.svg">
+                        </a>
+                    </div>
+
+                    <div class="dropdown topbar-action-item topbar-action-user">
+                        <a href="#" data-toggle="dropdown"> <img class="icon" src="./assets/img/user-thumb-sm.png"
+                                alt="thumb"> <i class="fa fa-angle-down"
+                                style="color: #fff; position: relative; top: 3px; margin-left: 4px;"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="user-dropdown">
+                                <div class="user-dropdown-head">
+                                    <h6 class="user-dropdown-name">luishoang</h6>
+                                </div>
+                                <div class="gaps-1x"></div>
+                                <ul class="user-dropdown-links">
+                                    <li><a href="./updateprofile.html"><i class="ti ti-id-badge"></i>My Profile</a>
+                                    </li>
+                                    <li><a href="./security.html"><i class="ti ti-lock"></i>Security</a></li>
+                                </ul>
+                                <ul class="user-dropdown-links">
+                                    <li><a href="./index.html"><i class="ti ti-power-off"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-lg-flex align-items-center justify-content-between">
+                <div class="topbar-lg d-none d-lg-block">
+                    <div class="site-logo">
+                        <a href="./index.html" class="site-brand">
+                            <img src="/Layout/Images/vera-logo.svg" alt="logo" srcset="/Layout/Images/vera-logo.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="topbar-action d-none d-lg-block">
+                    <ul class="topbar-action-list">
+                        <li class="dropdown topbar-action-item topbar-action-user">
+                            <a href="#" data-toggle="dropdown"> <img class="icon" src="./assets/img/user-thumb-sm.png"
+                                    alt="thumb"> <i class="fa fa-angle-down"
+                                    style="color: #fff; position: relative; top: 3px; margin-left: 4px;"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="user-dropdown">
+                                    <div class="user-dropdown-head">
+                                        <h6 class="user-dropdown-name">luishoang</h6>
+                                    </div>
+                                    <div class="gaps-1x"></div>
+                                    <ul class="user-dropdown-links">
+                                        <li><a href="./updateprofile.html"><i class="ti ti-id-badge"></i>My Profile</a>
+                                        </li>
+                                        <li><a href="./security.html"><i class="ti ti-lock"></i>Security</a></li>
+                                    </ul>
+                                    <ul class="user-dropdown-links">
+                                        <li><a href="./index.html"><i class="ti ti-power-off"></i>Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="user-wraper">
+        <div class="container">
+            <div class="d-flex">
+                <div class="user-sidebar">
+                    <ul class="user-icon-nav">
+                        <li>
+                            <a href="./index.html">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                        <path
+                                            d="M6.93633 6.00117H1.31133C0.587109 6.00117 0 5.41055 0 4.68633V1.31133C0 0.587109 0.587109 0 1.31133 0H6.93633C7.66055 0 8.24766 0.587109 8.24766 1.31133V4.68633C8.25117 5.41055 7.66055 6.00117 6.93633 6.00117ZM1.31133 1.125C1.20937 1.125 1.125 1.20938 1.125 1.31133V4.68633C1.125 4.78828 1.20937 4.87266 1.31133 4.87266H6.93633C7.03828 4.87266 7.12266 4.78828 7.12266 4.68633V1.31133C7.12266 1.20938 7.03828 1.125 6.93633 1.125H1.31133Z"
+                                            fill="#374957" />
+                                        <path
+                                            d="M6.93633 18H1.31133C0.587109 18 0 17.4129 0 16.6886V8.81365C0 8.08943 0.587109 7.50232 1.31133 7.50232H6.93633C7.66055 7.50232 8.24766 8.08943 8.24766 8.81365V16.6886C8.25117 17.4129 7.66055 18 6.93633 18ZM1.31133 8.6238C1.20937 8.6238 1.125 8.70818 1.125 8.81013V16.6851C1.125 16.7871 1.20937 16.8715 1.31133 16.8715H6.93633C7.03828 16.8715 7.12266 16.7871 7.12266 16.6851V8.81013C7.12266 8.70818 7.03828 8.6238 6.93633 8.6238H1.31133Z"
+                                            fill="#374957" />
+                                        <path
+                                            d="M16.6886 18H11.0636C10.3394 18 9.75232 17.4129 9.75232 16.6887V13.3136C9.75232 12.5894 10.3394 12.0023 11.0636 12.0023H16.6886C17.4129 12.0023 18 12.5894 18 13.3136V16.6887C18 17.4129 17.4129 18 16.6886 18ZM11.0636 13.1238C10.9617 13.1238 10.8773 13.2082 10.8773 13.3101V16.6851C10.8773 16.7871 10.9617 16.8715 11.0636 16.8715H16.6886C16.7906 16.8715 16.875 16.7871 16.875 16.6851V13.3101C16.875 13.2082 16.7906 13.1238 16.6886 13.1238H11.0636Z"
+                                            fill="#374957" />
+                                        <path
+                                            d="M16.6886 10.5012H11.0636C10.3394 10.5012 9.75232 9.9141 9.75232 9.18988V1.31488C9.75232 0.590665 10.3394 0.00355575 11.0636 0.00355575H16.6886C17.4129 4.01207e-05 18 0.58715 18 1.31137V9.18637C18 9.91059 17.4129 10.5012 16.6886 10.5012ZM11.0636 1.12504C10.9617 1.12504 10.8773 1.20942 10.8773 1.31137V9.18637C10.8773 9.28832 10.9617 9.3727 11.0636 9.3727H16.6886C16.7906 9.3727 16.875 9.28832 16.875 9.18637V1.31137C16.875 1.20942 16.7906 1.12504 16.6886 1.12504H11.0636Z"
+                                            fill="#374957" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="18" height="18" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                &nbsp; Dashboard
+                            </a>
+                        </li>
+                        <li class="drp-link">
+                            <a href="javascript:void(0)" title="Network" class="drp-link-act">
+                                <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                        <path
+                                            d="M2.67188 16.1333H17.4727C17.7645 16.1333 18 15.8986 18 15.6077V11.4027V7.19762V2.95754C18 2.6667 17.7645 2.43191 17.4727 2.43191H15.9082V0.52563C15.9082 0.234781 15.6727 0 15.3809 0H2.6543C1.1918 0 0 1.18792 0 2.64567V13.4701C0 14.9384 1.19883 16.1333 2.67188 16.1333ZM16.9453 10.877H13.6441C13.3313 10.877 13.0781 10.6247 13.0781 10.3129V8.28393C13.0781 7.97205 13.3313 7.71975 13.6441 7.71975H16.9453V10.877ZM16.9453 5.62074V6.672H13.6441C12.7512 6.672 12.0234 7.39736 12.0234 8.28743V10.3164C12.0234 11.2064 12.7512 11.9318 13.6441 11.9318H16.9453V12.9831H13.5527L10.1777 12.2226C10.0617 11.4657 9.4043 10.8805 8.61328 10.8805C7.74141 10.8805 7.03125 11.5884 7.03125 12.4574C7.03125 13.3265 7.74141 14.0343 8.61328 14.0343C9.19336 14.0343 9.70312 13.7189 9.97734 13.2529L13.377 14.0203C13.4156 14.0273 13.4543 14.0343 13.493 14.0343H16.9453V15.0856H2.67188C2.2957 15.0856 1.95117 14.9559 1.67695 14.7422L4.41563 12.0124C4.51406 11.9143 4.57031 11.7811 4.57031 11.641V7.60061C5.18555 7.38335 5.625 6.79815 5.625 6.11483C5.625 5.24579 4.91484 4.53794 4.04297 4.53794C3.17109 4.53794 2.46094 5.24579 2.46094 6.11483C2.46094 6.80165 2.90039 7.38335 3.51562 7.60061V11.4237L1.09688 13.8346C1.06875 13.7189 1.05469 13.5963 1.05469 13.4736V3.48668H15.3809H16.9453V4.57298V5.62074ZM8.61328 12.9796C8.32148 12.9796 8.08594 12.7448 8.08594 12.4539C8.08594 12.1631 8.32148 11.9283 8.61328 11.9283C8.90508 11.9283 9.14062 12.1631 9.14062 12.4539C9.14062 12.7448 8.90508 12.9796 8.61328 12.9796ZM4.04297 6.63695C3.75117 6.63695 3.51562 6.40217 3.51562 6.11132C3.51562 5.82047 3.75117 5.58569 4.04297 5.58569C4.33477 5.58569 4.57031 5.82047 4.57031 6.11132C4.57031 6.40217 4.33477 6.63695 4.04297 6.63695ZM2.6543 1.05126H14.8535V2.43191H1.06875C1.17422 1.65398 1.8457 1.05126 2.6543 1.05126Z"
+                                            fill="#374957" />
+                                        <path
+                                            d="M14.6602 9.82579C14.9514 9.82579 15.1875 9.59046 15.1875 9.30017C15.1875 9.00987 14.9514 8.77454 14.6602 8.77454C14.3689 8.77454 14.1328 9.00987 14.1328 9.30017C14.1328 9.59046 14.3689 9.82579 14.6602 9.82579Z"
+                                            fill="#374957" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="18" height="16.1333" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                &nbsp;Wallet
+                                <i class="fa fa-chevron-right pull-right" style="margin-top: 5px;"></i>
+                            </a>
+                            <ul>
+                                <li style="padding-left: 23px;">
+                                    <a href="./balance.html" class="drp-item">
+                                        <span>Balance</span>
+                                    </a>
+                                </li>
+                                <li style="padding-left: 23px;">
+                                    <a href="./deposit.html" class="drp-item">
+                                        <span>Deposit</span>
+                                    </a>
+                                </li>
+                                <li style="padding-left: 23px;">
+                                    <a href="./withdrawal.html" class="drp-item">
+                                        <span>Withdraw</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./transaction.html">
+                                <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                        <path
+                                            d="M1.97211 16.6909C0.885657 16.6909 0 15.7986 0 14.7039V1.98701C0 0.892349 0.885657 0 1.97211 0H16.0279C17.1143 0 18 0.892349 18 1.98701V14.7039C18 15.7986 17.1143 16.6909 16.0279 16.6909H1.97211ZM1.0757 14.7039C1.0757 15.2025 1.47729 15.6071 1.97211 15.6071H16.0279C16.5227 15.6071 16.9243 15.2025 16.9243 14.7039V5.41913H1.0757V14.7039ZM1.97211 1.08383C1.47729 1.08383 1.0757 1.48845 1.0757 1.98701V4.3353H16.9243V1.98701C16.9243 1.48845 16.5227 1.08383 16.0279 1.08383H1.97211ZM3.48884 11.9582L5.75139 9.67856L6.51155 10.4445L5.54701 11.4163H9.50199V12.5001H5.54701L6.51155 13.4719L5.75139 14.2379L3.48884 11.9582ZM11.4884 10.5817L12.453 9.60992H8.4263V8.52609H12.453L11.4884 7.55426L12.2486 6.78836L14.5112 9.068L12.2486 11.3477L11.4884 10.5817ZM5.55777 3.25148C5.26016 3.25148 5.01992 3.00942 5.01992 2.70956C5.01992 2.4097 5.26016 2.16765 5.55777 2.16765C5.85538 2.16765 6.09562 2.4097 6.09562 2.70956C6.09562 3.00942 5.85538 3.25148 5.55777 3.25148ZM3.04781 3.25148C2.7502 3.25148 2.50996 3.00942 2.50996 2.70956C2.50996 2.4097 2.7502 2.16765 3.04781 2.16765C3.34542 2.16765 3.58566 2.4097 3.58566 2.70956C3.58566 3.00942 3.34542 3.25148 3.04781 3.25148Z"
+                                            fill="#374957" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="18" height="16.6909" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                &nbsp; Transactions
+                            </a>
+                        </li>
+                        <li><a href="./updateprofile.html">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.68359 0C8.89453 0 9.10547 0 9.31641 0C9.38672 0.0105469 9.45352 0.0210937 9.52383 0.0316406C10.0582 0.108984 10.6066 0.140625 11.127 0.270703C13.5527 0.868359 15.409 2.26055 16.7133 4.38047C17.4023 5.50195 17.8066 6.72891 17.9332 8.04023C17.9543 8.25469 17.9789 8.46914 18 8.68359C18 8.89453 18 9.10547 18 9.31641C17.9895 9.39023 17.9789 9.46406 17.9684 9.53789C17.891 10.0687 17.8594 10.6066 17.7328 11.1234C17.1492 13.4895 15.8062 15.3211 13.7566 16.6289C12.6 17.3672 11.3309 17.7961 9.95977 17.9332C9.74531 17.9543 9.53086 17.9789 9.31641 18C9.10547 18 8.89453 18 8.68359 18C8.61328 17.9895 8.54648 17.9789 8.47617 17.9684C7.9418 17.891 7.39336 17.8594 6.87305 17.7293C4.45078 17.1316 2.59102 15.7395 1.28672 13.6195C0.597656 12.498 0.193359 11.2711 0.0667969 9.95977C0.0457031 9.74531 0.0210938 9.53086 0 9.31641C0 9.10547 0 8.89453 0 8.68359C0.0105469 8.60977 0.028125 8.53594 0.0316406 8.46211C0.0632812 7.73789 0.193359 7.02773 0.411328 6.33867C1.10039 4.1625 2.4293 2.48555 4.36641 1.29727C5.49492 0.604688 6.72188 0.196875 8.04375 0.0667969C8.25469 0.0457031 8.46914 0.0210938 8.68359 0ZM14.9977 14.1926C17.6063 11.2816 17.8137 6.26836 14.3121 3.08672C10.8949 -0.0140623 5.50898 0.485156 2.7 4.15898C-0.00351557 7.68867 0.991406 12.0832 3.00937 14.175C3.58594 12.1113 4.88672 10.6875 6.89062 9.87891C5.97656 9.21797 5.41758 8.36367 5.26641 7.27031C5.11523 6.16992 5.38945 5.17852 6.09961 4.32773C7.43555 2.72812 9.75938 2.51367 11.3625 3.80039C12.1641 4.44375 12.6492 5.2875 12.7477 6.31055C12.8918 7.79414 12.3258 8.98594 11.1199 9.87891C13.1273 10.691 14.4105 12.1219 14.9977 14.1926ZM9.225 16.9523C9.47109 16.9277 9.94922 16.9102 10.4098 16.8223C11.7035 16.5832 12.8742 16.0559 13.9148 15.2438C14.0449 15.1418 14.1012 15.0609 14.0695 14.8711C13.8516 13.5879 13.2504 12.5227 12.2449 11.7141C10.9617 10.6805 9.49219 10.3324 7.875 10.6875C5.81836 11.1375 4.21875 12.8426 3.90937 14.9941C3.90234 15.0434 3.93398 15.1207 3.97617 15.1523C5.44219 16.3336 7.11562 16.9348 9.225 16.9523ZM9.00703 4.00781C7.55508 3.97617 6.25781 5.18555 6.25781 6.75C6.25781 8.24766 7.51289 9.4957 9.01055 9.48867C10.5047 9.48164 11.7422 8.24063 11.7422 6.75C11.7387 5.17148 10.4379 3.9832 9.00703 4.00781Z"
+                                        fill="#374957" />
+                                </svg>
+                                &nbsp; Account
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./security.html">
+                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                        <path
+                                            d="M7.57143 18C7.49643 18 7.425 17.9857 7.35714 17.9571C5.17143 17.0679 3.32143 15.5607 2.00714 13.6071C0.696429 11.65 0 9.36786 0 7.01071V3.47857C0 3.24643 0.139286 3.03929 0.353571 2.95L7.35357 0.0428571C7.425 0.0142857 7.49643 0 7.57143 0C7.64643 0 7.72143 0.0142857 7.78929 0.0428571L14.7893 2.95C15.0036 3.03929 15.1429 3.24643 15.1429 3.47857V7.01071C15.1429 9.36786 14.4464 11.65 13.1357 13.6071C11.8214 15.5607 9.97143 17.0679 7.78571 17.9571C7.71786 17.9857 7.64643 18 7.57143 18ZM1.14286 3.86071V7.01071C1.14286 11.2429 3.64286 15.0786 7.51429 16.7821L7.57143 16.8071L7.62857 16.7821C11.5 15.0786 14 11.2429 14 7.01071V3.86071L7.57143 1.18929L1.14286 3.86071ZM6.78214 11C6.62857 11 6.48571 10.9393 6.37857 10.8321L4.38214 8.83571C4.275 8.72857 4.21429 8.58572 4.21429 8.43214C4.21429 8.27857 4.275 8.13571 4.38214 8.02857C4.48929 7.92143 4.63214 7.86071 4.78571 7.86071C4.93929 7.86071 5.08214 7.92143 5.18929 8.02857L6.78214 9.62143L9.95357 6.45C10.0607 6.34286 10.2036 6.28214 10.3571 6.28214C10.5107 6.28214 10.6536 6.34286 10.7607 6.45C10.8679 6.55714 10.9286 6.7 10.9286 6.85357C10.9286 7.00714 10.8679 7.15 10.7607 7.25714L7.18571 10.8321C7.07857 10.9393 6.93571 11 6.78214 11Z"
+                                            fill="#374957" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <rect width="15.1429" height="18" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                &nbsp; Security
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="page-content user-content" style="position: relative;">
+                    <h2 style="margin: 10px 0;color: #3276f7;">Security Settings</h2>
+                    <p>You can control your password and account-access setting and tools that let you safely, protect
+                        your account.</p>
+                    <section class="stake controls ng-tns-c189-6 ng-star-inserted">
+                        <div class="status-container ng-tns-c189-6 ng-star-inserted"
+                            style="background: #fff; border-radius: 5px; border-bottom: 1px solid #ccc;">
+                            <ul class="nav stake-tabs nav-tabs nav-tabs-line" role="tablist" style="width: 290px;">
+                                <li class="ng-tns-c189-6"><a class="nav-link stake-link active show" data-toggle="tab"
+                                        href="#security-opt">Security</a></li>
+                                <li class="ng-tns-c189-6" style="width: 150px"><a class="nav-link stake-link"
+                                        data-toggle="tab" href="#password-opt">Change Password</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <div>
+                        <div class="user-panel" style="background: #fff;padding:20px;">
+
+                            <div class="tab-content" id="security-opt-tab">
+                                <div class="tab-pane fade active show" id="security-opt">
+                                    <h5 class="user-panel-subtitle">Two-Factor Security Option</h5>
+                                    <p>Two-factor authentication is a method for protecting your web account. When it is
+                                        activated you need to enter not only your password, but also a special code. You
+                                        can receive this code by in mobile app. Even if a third person will find your
+                                        password, they can't access it with that code.</p>
+                                    <div class="gaps-2x"></div>
+                                    <div class="d-flex guttar-20px">
+                                        <div><span>Current Status:</span></div>
+                                        <div><span class="alert alert-xs alert-dark">Disabled</span></div>
+                                    </div>
+                                    <div class="gaps-4x"></div>
+                                    <div class="ath-content" style="display: block;">
+                                        <div class="gaps-2x"></div>
+                                        <h5>Install an authentication app on your device. Any app that supports the
+                                            Time-based One-Time Password (TOTP) protocol should work, including:</h5>
+                                        <ul class="ath-content-sublist">
+                                            <li><a
+                                                    href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=vi&gl=US">Google
+                                                    Authenticator</a> Android</li>
+                                            <li><a
+                                                    href="https://apps.apple.com/vn/app/google-authenticator/id388497605">Google
+                                                    Authenticator</a> iOS</li>
+                                        </ul>
+                                        <h5>1) Use the authenticator app to scan the barcode below.</h5>
+                                        <img class="ath-content-qrimg"
+                                            src="https://chart.googleapis.com/chart?cht=qr&amp;chs=300x300&amp;chl=otpauth%3A%2F%2Ftotp%2Fluishoang%3Fsecret%3DK5IUCRSZHFJTMMKVGI2A%26issuer%3Dverafti.io"
+                                            alt="qr" style="width: 100%;max-width: 250px;">
+                                        <br />
+                                        <b>Manually set code: WQAFY9S61U24</b>
+                                        <div class="gaps-2x"></div>
+                                        <h5>2) Enter the code generated by the authenticator app.</h5>
+                                        <form action="#" id="changeSecurityPin">
+                                            <input type="hidden" name="status" value="true" />
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="input-item input-with-label">
+                                                        <label for="">Login Password </label>
+                                                        <input class="input-bordered" type="password" id="security-code"
+                                                            name="password">
+                                                    </div>
+                                                    <div class="input-item input-with-label">
+                                                        <label for="">2FA Code</label>
+                                                        <input class="input-bordered" type="password" id="security-code"
+                                                            name="2faPasscode">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <button class="btn btn-primary" type="submit">Enable 2FA</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="gaps-4x"></div>
+                                    <div class="note note-plane note-danger">
+                                        <em class="fas fa-info-circle"></em>
+                                        <p>Important! In case of loss of access to the mobile application, you can
+                                            regain it using the mobile number specified in your profile. If you don't
+                                            save that, we will not able to help you to regain it.</p>
+                                    </div>
+                                    <div class="gaps-4x"></div>
+                                </div>
+                                <div class="tab-pane fade" id="password-opt">
+                                    <form id="formChangePassword" method="post">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="input-item input-with-label">
+                                                    <label for="swalllet" class="input-item-label">Old Password</label>
+                                                    <input class="input-bordered" type="password" name="txtPassword"
+                                                        value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="input-item input-with-label">
+                                                    <label for="date-of-birth" class="input-item-label">New
+                                                        Password</label>
+                                                    <input class="input-bordered" type="password" name="txtNewPassword">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input-item input-with-label">
+                                                    <label for="date-of-birth" class="input-item-label">Confirm New
+                                                        Password</label>
+                                                    <input class="input-bordered" type="password"
+                                                        name="txtConfirmNewPassword">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="gaps-3x"></div>
+                                        <div class="gaps-1x"></div>
+                                        <div class="d-sm-flex justify-content-between align-items-center">
+                                            <button class="btn btn-primary" type="submit">Update</button>
+                                            <div class="gaps-2x d-sm-none"></div>
+                                        </div>
+                                        <input name="__RequestVerificationToken" type="hidden"
+                                            value="CfDJ8AhXFgfbCH5FnDjNWx41ieZwyMF4D7CLmM3URh8MN9WBeflaAIR4NQ8hLSJE8crp21ZZjVB9RjYuIDA_mDi0DTWhs2qyn4FdjOjVZausCwQU29FZCe0U6sVb5DNyeBJzPGNb9DSwpjq2IT7gLsWz7GwYEWzQbu2EUDEZtAP3ikm9UVmmpAn3Y4yoVPBBy4uOsw" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <style>
+                        section.stake .nav-tabs .nav-item.show .nav-link,
+                        .nav-tabs .nav-link.active {
+                            color: #304073 !important;
+                            background-color: #fff;
+                        }
+                    </style>
+                    <script>
+                        $("#formChangePassword").submit(function (e) {
+                            e.preventDefault();
+                            var button = $(this).find('[type="submit"]');
+                            var text = button.text();
+                            button.prop('disabled', true).text('Pending...');
+                            $.ajax({
+                                url: '/account/FormChangePass',
+                                data: new FormData(this),
+                                type: 'POST',
+                                cache: false,
+                                contentType: false,
+                                processData: false,
+                                success: function (data) {
+                                    if (data.check) {
+                                        toast('success', data.ms);
+                                        reload();
+                                    } else {
+                                        toast('error', data.ms);
+                                    }
+                                    button.prop('disabled', false).text(text);
+                                }
+                            });
+                        });
+                        $("#changeSecurityPin").submit(function (e) {
+                            e.preventDefault();
+                            var button = $(this).find('[type="submit"]');
+                            var text = button.text();
+                            button.prop('disabled', true).text('Pending...');
+                            $.ajax({
+                                url: '/account/ChangeSecurityPin',
+                                data: new FormData(this),
+                                type: 'POST',
+                                cache: false,
+                                contentType: false,
+                                processData: false,
+                                success: function (data) {
+                                    if (data.check) {
+                                        toast('success', data.ms);
+                                        reload();
+                                    } else {
+                                        toast('error', data.ms);
+                                    }
+                                    button.prop('disabled', false).text(text);
+                                },
+                                error: function (err) {
+                                    toast('error', err.statusText);
+                                    button.prop('disabled', false).text(text);
+
+                                }
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bar">
+        <div class="container text-center">
+            <span class="footer-copyright">Copyright 2022, <b>VeraFTI</b> All Rights Reserved.</span>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/toastr.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(".sw-coins").length) {
+                new Swiper(".sw-coins", {
+                    slidesPerView: 4,
+                    spaceBetween: 15,
+                    breakpoints: {
+                        '1120': {
+                            slidesPerView: 3,
+                            spaceBetween: 15,
+                        },
+                        '991': {
+                            slidesPerView: 3,
+                            spaceBetween: 15,
+                        },
+                        '768': {
+                            slidesPerView: 3,
+                            spaceBetween: 15,
+                        },
+                        '320': {
+                            slidesPerView: 2,
+                            spaceBetween: 15,
+                        },
+
+
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            }
+            if ($(".sw-timeSavingRunning").length) {
+                new Swiper(".sw-timeSavingRunning", {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            }
+
+            if ($(".sw-timeSaving").length) {
+                new Swiper(".sw-timeSaving", {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                    breakpoints: {
+                        '1120': {
+                            slidesPerView: 2,
+                            spaceBetween: 15,
+                        },
+                        '991': {
+                            slidesPerView: 2,
+                            spaceBetween: 15,
+                        },
+                        '768': {
+                            slidesPerView: 2,
+                            spaceBetween: 15,
+                        },
+                        '480': {
+                            slidesPerView: 2,
+                            spaceBetween: 15,
+                        },
+                        '320': {
+                            slidesPerView: 2,
+                            spaceBetween: 15,
+                        },
+
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
