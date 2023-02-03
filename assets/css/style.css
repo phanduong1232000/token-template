@@ -5312,4 +5312,31 @@ ul#a-one li {
     margin-left: 0px;
     margin-bottom: 20px;
   }
+  .box-invest{
+    margin-top: 20px;
+  }
+  .box-stake-invest .tab-pane .d-flex{
+    padding: 0px;
+  }
+  .box-wallet{
+    margin: 20px 0px ;
+  }
+  #a-one li span, .btn-select-one li span{
+    margin-left: 0px;
+  }
+  .box-wallet .choose .trans{
+    font-size: 19px;
+  }
+  .box-stake-invest .tab-pane .box-bg{
+    padding: 15px 10px;
+  }
+  .custom-member.nav-pills .nav-link{
+    font-size: 15px;
+  }
+  .row-banlance{
+    display: block;
+  }
+  .row-not-margin{
+    margin-left: 0px;
+  }
 }

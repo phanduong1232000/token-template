@@ -416,9 +416,9 @@ a {
       url(/Layout/Images/logo-frombottom.svg-darken.svg) no-repeat bottom,
       linear-gradient(90deg, #4231c8, #6a5fc7);
   }
-  .row {
+  /* .row {
     display: block;
-  }
+  } */
   section.stake.controls {
     display: block !important;
     padding: 0 20px;
