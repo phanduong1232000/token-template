@@ -1105,15 +1105,15 @@ span.value-blance.number {
 }
 .table-transaction {
   width: 100%;
-  border-top: 4px solid #0744a4;
+  border-top: 4px solid #075200;
   margin-top: 15px;
 }
 .table-transaction .table.footable thead {
   background: #f5f5f5;
 }
 .table-transaction .table.footable thead th {
-  color: #0744a4;
-  border: 1px solid #dadada;
+  color: #0752009d;
+  border: 1px solid #07520023;
 }
 .table-transaction .table.footable tbody tr td {
   border: 1px solid #dadada;
@@ -1124,7 +1124,7 @@ span.value-blance.number {
   display: initial;
 }
 .footable thead .footable-header th {
-  background: #d4e0f3;
+  background: #ffffff;
 }
 .footable tbody tr td {
   background: #fff;

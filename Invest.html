@@ -8,14 +8,14 @@
 
     <link rel="shortcut icon" href="./assets/img/fav.png" type="image/x-icon">
 
-    <title>Investment</title>
+    <title>Withdrawal</title>
 
     <link rel="stylesheet" href="./assets/css/bundle.css">
 
     <link rel="stylesheet" href="./assets/css/swiper-bundle.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/cssmore.css">
     <link href="./assets/css/site-account.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/dashboard.css">
     <link href="./assets/css/footable.boostrap.min.css" rel="stylesheet" />
     <script src="./assets/js/jquery.bundle.js"></script>
     <link href="./assets/css/toastr.min.css" rel="stylesheet" />
@@ -193,7 +193,7 @@
                                     </a>
                                 </li>
                                 <li style="padding-left: 23px;">
-                                    <a href="./swap.html" class="drp-item">
+                                    <a href="./deposit.html" class="drp-item">
                                         <span>Swap</span>
                                     </a>
                                 </li>
@@ -316,166 +316,220 @@
                         </li>
                     </ul>
                 </div>
+                <div class="page-content user-content dashboard-bg" style="position: relative;">
+                    <h2 class="mb-0">Earn platform fees by Stablecoins</h2>
+                    <p>Stake your DELO for sDELO and maximize your yield. No Impermanent Loss. For every reward claimed
+                        by the winner on DELO by stablecoin tickets, a 3% fee is collected to sDELO and redistributed
+                        for holders by stablecoins. When you unstake you will receive all the originally deposited DELO
+                        and any additional from fees</p>
 
-
-
-                <div class="page-content user-content dashboard-bg">
-                    <!-- ======================================================= -->
-                    <div class=" info-card-bordered mt-4">
-                        <div class="box-swap">
-                            <div class="title">
-                                <p class="title-1">Swap Your Token</p>
-                                <p>We take care of the complexities of crypto finances. You can swap your tokens
-                                    instantly with Shinkiswap</p>
-                            </div>
-
+                    <!--  -->
+                    <ul class="nav nav-pills mb-3 custom-member" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-bonze-tab" data-toggle="pill" href="#pills-bonze"
+                                role="tab" aria-controls="pills-bonze" aria-selected="true">bonze</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-silver-tab" data-toggle="pill" href="#pills-silver" role="tab"
+                                aria-controls="pills-silver" aria-selected="false">Silver</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-gold-tab" data-toggle="pill" href="#pills-gold" role="tab"
+                                aria-controls="pills-gold" aria-selected="false">Gold</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-pla-tab" data-toggle="pill" href="#pills-pla" role="tab"
+                                aria-controls="pills-contact" aria-selected="false">Platinum</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-bonze" role="tabpanel"
+                            aria-labelledby="pills-bonze-tab">
+                            <!--  -->
                             <div class="row">
-                                <div class="col-xs-12 col-sm-6">
-                                    <div class="info-deposit deposit"
-                                        style="background: #fff; padding: 20px;margin: 20px 0;">
-
-                                        <select class="vodiapicker ">
-                                            <option value="en" class="test"
-                                                data-thumbnail="https://coin.top/production/upload/logo/TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq.png">
-                                                NFT</option>
-                                            <option value="au"
-                                                data-thumbnail="https://bscscan.com/token/images/shibatoken_32.png">
-                                                SHIB</option>
-                                            <option value="uk"
-                                                data-thumbnail="https://etherscan.io/token/images/tether_32.png">USDT
-                                            </option>
-                                            <option value="cn"
-                                                data-thumbnail="https://coin.top/production/upload/logo/TN13JSHkFwpsZnmqnCvUsEnamEtA67VTGx.jpeg?t=1623740437063">
-                                                VTD</option>
-                                        </select>
-
-                                        <div class="lang-select">
-                                            <div class="d-flex align-items-center">
-                                                <button class="btn-select custom-swap-select" value=""></button>
-                                                <i class="fa fa-chevron-down ml-3" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="b">
-                                                <ul id="a"></ul>
+                                <div class="col-lg-4">
+                                    <div class="dashboard-package centering flex-column mx-0 "
+                                        style="border-radius:20px">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./assets/img/BRONZE.png" alt="">
+                                            <div class="policy-package-name ">
+                                                Staking APR
                                             </div>
                                         </div>
-                                        <!-- ===================================== -->
-
-                                        <input class="input-bordered" type="text" id="mobile-number" name="PhoneNumber"
-                                            value="" placeholder="0.00">
-                                        <div>Balance: 0.00 <b>MAX</b></div>
-                                        <div class="ng-tns-c376-4 ng-star-inserted mt-4">
-
-                                            <div class="trans-icon">
-                                                <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                                            </div>
-
-                                            <select class="vodiapicker-one">
-                                                <option value="en" class="test"
-                                                    data-thumbnail="https://coin.top/production/upload/logo/TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq.png">
-                                                    NFT</option>
-                                                <option value="au"
-                                                    data-thumbnail="https://bscscan.com/token/images/shibatoken_32.png">
-                                                    SHIB</option>
-                                                <option value="uk"
-                                                    data-thumbnail="https://etherscan.io/token/images/tether_32.png">
-                                                    USDT
-                                                </option>
-                                                <option value="cn"
-                                                    data-thumbnail="https://coin.top/production/upload/logo/TN13JSHkFwpsZnmqnCvUsEnamEtA67VTGx.jpeg?t=1623740437063">
-                                                    VTD</option>
-                                            </select>
-
-                                            <div class="lang-select">
-                                                <div class="d-flex align-items-center">
-                                                    <button class="btn-select-one custom-swap-select" value=""></button>
-                                                    <i class="fa fa-chevron-down ml-3" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="b-one">
-                                                    <ul id="a-one"></ul>
-                                                </div>
-                                            </div>
-                                            <!-- ===================================== -->
-
-                                            <input class="input-bordered" type="text" id="mobile-number"
-                                                name="PhoneNumber" value="" placeholder="0.00">
-                                            <div>Balance: 0.00 <b>MAX</b></div>
+                                        <div class="policy-package-price secondary-text">
+                                            0.2% - 0.4%
                                         </div>
+                                        <p class="text-light mb-4">Duration: 6 Months</p>
                                     </div>
-                                    <div class="btn-claim" data-toggle="modal" data-target="#exampleModalCenter">SWAP
+
+                                    <div class="box-invest">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-6">
+                                                <div class="left">
+                                                    <img src="./assets/img/stake.png" alt="">
+                                                    <p>Staked</p>
+                                                    <div class="money"><span>1,000</span> USDT</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-6">
+                                                <div class="right">
+                                                    <img src="./assets/img/pending.png" alt="">
+                                                    <p>Pending Rewards</p>
+                                                    <div class="money"><span>2,000</span> USDT</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="claim">Claim</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="box-stake-invest">
+                                        <nav>
+                                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                <a class="nav-item nav-link active" id="nav-stake-tab" data-toggle="tab"
+                                                    href="#nav-stake" role="tab" aria-controls="nav-stake"
+                                                    aria-selected="true">Stake BBank</a>
+                                                <a class="nav-item nav-link" id="nav-unstake-tab" data-toggle="tab"
+                                                    href="#nav-unstake" role="tab" aria-controls="nav-unstake"
+                                                    aria-selected="false">Unstake</a>
+                                            </div>
+                                        </nav>
+
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="nav-stake" role="tabpanel"
+                                                aria-labelledby="nav-stake-tab">
+                                                <div class="box-bg">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="stake-title">Total Stake</div>
+                                                        <div class="stake-money">2,637 USDT</div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="stake-title">Total Stake</div>
+                                                        <div class="stake-money">100 USDT</div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="stake-title">Total Stake</div>
+                                                        <div class="stake-money">1,000 USDT</div>
+                                                    </div>
+                                                    <div class="box-wallet">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div class="banlan">
+                                                                <p>Balance</p>
+                                                                <div class="money">0</div>
+                                                            </div>
+                                                            <div class="choose">
+                                                                <!--  -->
+                                                                <select class="vodiapicker-one">
+                                                                    <option value="en" class="test">Choose a wallet
+                                                                    </option>
+                                                                    <option value="du" class="test"
+                                                                        data-thumbnail="https://coin.top/production/upload/logo/TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq.png">
+                                                                        NFT</option>
+                                                                    <option value="au"
+                                                                        data-thumbnail="https://bscscan.com/token/images/shibatoken_32.png">
+                                                                        SHIB</option>
+                                                                    <option value="uk"
+                                                                        data-thumbnail="https://etherscan.io/token/images/tether_32.png">
+                                                                        USDT
+                                                                    </option>
+                                                                    <option value="cn"
+                                                                        data-thumbnail="https://coin.top/production/upload/logo/TN13JSHkFwpsZnmqnCvUsEnamEtA67VTGx.jpeg?t=1623740437063">
+                                                                        VTD</option>
+                                                                </select>
+
+                                                                <div class="lang-select">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <button
+                                                                            class="btn-select-one custom-swap-select border-0 mt-0"
+                                                                            value=""></button>
+                                                                        <i class="fa fa-chevron-down ml-3"
+                                                                            aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="b-one">
+                                                                        <ul id="a-one"></ul>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="trans">0.000 | <span>MAX</span></div>
+                                                                <!--  -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="claim-right">Claim</a>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="nav-unstake" role="tabpanel"
+                                                aria-labelledby="nav-unstake-tab">...</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <!--  -->
                         </div>
+                        <div class="tab-pane fade" id="pills-silver" role="tabpanel" aria-labelledby="pills-silver-tab">
+                            dgfdfgdgfdgfdfg456456645</div>
+                        <div class="tab-pane fade" id="pills-gold" role="tabpanel" aria-labelledby="pills-gold-tab">
+                            345534345354354</div>
+                        <div class="tab-pane fade" id="pills-pla" role="tabpanel" aria-labelledby="pills-pla-tab">
+                            áđâsđâsdá</div>
                     </div>
-                    <!-- ======================================================= -->
+                    <!--  -->
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Switch Network</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <a href="#" class="box-item-coin">
-                                        <img src="./assets/img/eth.png" alt="">
-                                        <p>Ethereum Mainnet</p>
-                                    </a>
-                                    <a href="#" class="box-item-coin">
-                                        <img src="./assets/img/bnb.png" alt="">
-                                        <p>BNB Chain Mainnet</p>
-                                    </a>
-                                    <a href="#" class="box-item-coin">
-                                        <img src="./assets/img/polygon.png" alt="">
-                                        <p>Polygon Mainnet</p>
-                                    </a>
-                                    <a href="#" class="box-item-coin">
-                                        <img src="./assets/img/fantom.png" alt="">
-                                        <p>Fantom Mainnet</p>
-                                    </a>
-                                    <a href="#" class="box-item-coin">
-                                        <img src="./assets/img/cronos.png" alt="">
-                                        <p>Cronos Mainnet</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <style>
-                        section.stake .nav-tabs .nav-item.show .nav-link,
-                        .nav-tabs .nav-link.active {
-                            color: #304073 !important;
-                            background-color: #fff;
-                        }
-                    </style>
                     <script>
-                        $(document).on('submit', '#editUserProfile', function (e) {
-                            e.preventDefault();
-                            var THIS = $(this);
-                            var button = THIS.find('[type="submit"]');
-                            var text = button.text();
-                            button.prop('disabled', true).text('Waiting...');
-                            var formData = new FormData(this);
+                        $().ready(function () {
+                            getBalance();
+                        });
+                        $('[name="txtWallet"]').change(function () {
+                            window.location.href = '/point/withdrawal/' + $(this).val();
+                        });
+
+                        function getBalance() {
                             $.ajax({
-                                data: formData,
-                                url: '/account/FormUpdateInfoUser',
+                                url: '/point/getbalance',
+                                data: {
+                                    wallet: $('[name="txtWallet"]').val()
+                                },
+                                success: function (data) {
+                                    console.log(data)
+                                    $('.symbol').text(data.symbol);
+                                    $('.minWithdraw').text(formatMoney(data.minWithdraw, 0));
+                                    $('.totalBalance').text(formatMoney(data.total, 2));
+                                    $('.availableBalance').text(formatMoney(data.available, 2));
+                                    $('.saving').text(formatMoney(data.saving, 2));
+                                    $('.lockBalance').text(formatMoney(data.lock, 2));
+                                    $('.fee').text(formatMoney(data.feeWithdraw, 0) + ' ' + data.symbol);
+                                }
+                            });
+                        }
+                        $(document).on('submit', '#formWithdraw', function (e) {
+                            e.preventDefault();
+                            var button = $(this).find('[type="submit"]');
+                            var text = button.text();
+                            button.prop('disabled', true).text('Processing...');
+                            var form = new FormData(this);
+                            $.ajax({
+                                url: '/point/formWithdraw',
                                 type: 'POST',
+                                data: form,
+                                cache: false,
+                                async: false,
                                 contentType: false,
                                 processData: false,
-                                cache: false,
                                 success: function (data) {
-                                    if (data.check == true) {
+                                    if (data.check) {
+                                        if (data.otp != true) {
+                                            reload();
+                                        } else {
+                                            $('._otp').show();
+                                            button.prop('disabled', false).text(text);
+                                        }
                                         toast('success', data.ms);
-                                        reload();
                                     } else {
                                         toast('error', data.ms);
                                         button.prop('disabled', false).text(text);
+                                        if (data.ms == "Please enter OTP code") {
+                                            $('._otp').show();
+                                        }
                                     }
                                 },
                                 error: function (err) {
@@ -491,7 +545,7 @@
     </div>
     <div class="footer-bar">
         <div class="container text-center">
-            <span class="footer-copyright">Copyright 2022, <b>VeraFTI</b> All Rights Reserved.</span>
+            <span class="footer-copyright">Copyright 2022, <b>BBank Crypto</b> All Rights Reserved.</span>
         </div>
     </div>
 
