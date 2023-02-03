@@ -4983,8 +4983,7 @@ button.copy:not([class*="robi-"]):not(.next) {
 }
 .withdraw-submit {
   background-color: #37b24d;
-  width: 30% !important;
-  margin: 20px auto !important;
+  width: 100% !important;
   display: block;
 }
 
